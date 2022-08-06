@@ -63,6 +63,23 @@ const Header = () => {
                     </NavLink>
                   </a>
                 </li>
+                <li class="nav-item">
+                  <a>
+                    <NavLink className="nav-link" to="/Signup">
+                      {" "}
+                      নতুন নিবন্ধন
+                    </NavLink>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a>
+                    <NavLink className="nav-link" to="/Signin">
+                      {" "}
+                      লগইন
+                    </NavLink>
+                  </a>
+                </li>
+
               </ul>
             </div>
           </div>

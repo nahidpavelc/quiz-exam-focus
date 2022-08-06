@@ -1,0 +1,22 @@
+.form_part{
+  text-align: center;
+}
+.form_part .form-group label{
+text-align: left!important;
+}
+.form_part h4{
+  margin: 20px 0px;
+  font-weight: bold;
+}
+.form_part button{
+  margin-bottom: 25px;
+  padding: 4px 25px;
+  font-size: 20px;
+}
+.form_button{
+text-align: center;
+}
+.form_button button:hover{
+background: #f40552;
+border-color: #f40552;
+}

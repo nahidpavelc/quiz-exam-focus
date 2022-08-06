@@ -8,6 +8,8 @@ import Result from "./Pages/Result/Result";
 import Profile from "./Pages/Profile/Profile";
 import Footer from "./Pages/Shared/Footer/Footer";
 import Navbar from "./Pages/Shared/navbar/Navbar";
+import Signup from "./Pages/Signup/Signup";
+import Signin from "./Pages/Signin/Signin";
 
 
 function App() {
@@ -23,6 +25,8 @@ function App() {
           <Route exact path='/Exam' element={<Exam />}></Route>
           <Route exact path='/Result' element={<Result />}></Route>
           <Route exact path='/Profile' element={<Profile />}></Route>
+          <Route exact path='/Signup' element={<Signup />}></Route>
+          <Route exact path='/Signin' element={<Signin />}></Route>
         </Routes>
         <Footer/>
       </BrowserRouter>
