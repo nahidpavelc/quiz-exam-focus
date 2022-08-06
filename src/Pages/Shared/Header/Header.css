@@ -1,0 +1,21 @@
+.navbar .navbar-nav .nav-item .nav-link {
+  position: relative;
+  display: block;
+  text-transform: uppercase;
+  color: #174c81;
+  /* font-size: 20px; */
+  text-decoration: none;
+  font-weight: 700;
+  padding: 6px 16px 7px 16px;
+  outline: none;
+  transition: all linear 0.5s;
+}
+.navbar .navbar-nav .nav-item .nav-link:hover {
+  color: #18ba60;
+}
+.navbar .navbar-nav .nav-item .nav-link.active {
+  /* border: 1px solid #18ba60; */
+  color: #18ba60;
+  display: inline-block;
+  background: transparent;
+}

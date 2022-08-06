@@ -1,0 +1,93 @@
+/* footer part css */
+.footer_secf{
+  background: #133a63;
+  padding:10px 0px;
+}
+.footer_contentf p{
+  color:#fff!important;
+font-size: 16px;
+margin-top:10px;
+}
+.footer_contentf p a{
+  color:#fff!important;
+font-weight: bold;
+}
+.footer_contentf p a:hover{
+  color:rgb(16, 130, 165)!important;
+font-weight: bold;
+}
+
+
+.logo_part{
+  text-align: center;
+  margin: auto;
+  margin: 15px 0px;
+}
+.logo_part img{
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.menu_part{
+width: 100%;
+text-align: center;
+}
+.menu_part ul {
+float: left;
+width: 100%;
+text-align: center;
+}
+.menu_part ul li{
+float: left;
+  width: 33.333%;
+  text-align: center;
+}
+.menu_part ul li a{
+  display:block;
+font-size: 20px;
+background: #483d8b;
+color: #ffffff;
+width: 100%;
+text-align: center;
+padding: 10px 5px;
+font-weight: bold;
+transition: all linear .5s;
+}
+.menu_part ul li a:hover{
+background:#f40552;
+}
+
+.list_part{
+  margin: 20px 0px 0px 0px;
+}
+
+.list_part ul li{
+
+}
+
+.list_part ul li a{
+color: #fff;
+background: #f40552;
+padding: 10px 25px;
+font-size: 18px;
+display: inline-block;
+width: 100%;
+border-radius: 5px;
+margin-top: 10px;
+transition: all linear .5s;
+text-align: center;
+}
+
+.list_part ul li a:hover{
+color: #fff;
+background: #007bff;	
+}
+.top_socialf {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.navbar-shadow{
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}

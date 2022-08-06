@@ -1,0 +1,136 @@
+a{
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: none;
+}
+.top_header_bg {
+  background-color: #15416e;
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 14px;
+  padding: 9px 0;
+}
+
+.top_header_contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: space-between;
+}
+
+.top_social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.top_social_inner a i {
+  
+  width: 28px;
+  height: 28px;
+  line-height: 26px;
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  position: relative;
+  top: 0;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  margin-right: 8px;
+}
+.top_social_inner a i.fa-facebook-f {
+  background-color: #496fa4;
+}
+.top_social_inner a i.fa-instagram {
+  background-color: #c3338e;
+}
+.top_social_inner a i.fa-youtube {
+  background-color: #cd201f;
+}
+.top_social_inner a i:hover {
+  background-color: transparent;
+}
+.top_header_contact .top_header_contact_inner p span i {
+  margin-right: 10px;
+  margin-left: 30px;
+  width: 28px;
+  height: 28px;
+  color: #ffffff;
+  font-size: 14px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  line-height: 26px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: rgba(0, 0, 0, 0.1);
+}
+.top_header_contact_inner p {
+  /* font-size: 18px; */
+  margin-bottom: 0px;
+}
+.top_header_link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.top_header_link_inner {
+  padding: 0px 15px;
+  display: block;
+  color: rgba(255, 255, 255, 0.8);
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
+  text-transform: uppercase;
+  font-weight: bold;
+  /* font-size: 18px; */
+}
+.top_header_link_inner:last-child {
+  border-right: none;
+  padding-right: 0px;
+}
+.top_header_link_inner a {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+@media (max-width: 575px) {
+  .phone_part {
+    width: 100%;
+
+    height: 100%;
+
+    background: none;
+
+    background-size: cover;
+
+    background-repeat: no-repeat;
+
+    padding-top: 60px;
+  }
+
+  .menu_part {
+    width: 100%;
+  }
+
+  .logo_part {
+    width: 100%;
+  }
+
+  .list_part {
+    width: 100%;
+  }
+
+  .footer_part {
+    width: 100%;
+  }
+
+  .top_header_bg {
+    display: none;
+  }
+  .navbar-nav {
+    padding-top: 30px;
+    text-align: center;
+  }
+  .navbar .navbar-nav .nav-item .nav-link {
+    padding: 8px 16px 7px 16px;
+  }
+  .navbar .navbar-brand img {
+    width: 240px;
+  }
+}
