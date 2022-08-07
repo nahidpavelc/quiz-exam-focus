@@ -10,6 +10,7 @@ import Footer from "./Pages/Shared/Footer/Footer";
 import Navbar from "./Pages/Shared/navbar/Navbar";
 import Signup from "./Pages/Signup/Signup";
 import Signin from "./Pages/Signin/Signin";
+import UpdateProfile from "./Pages/UpdateProfile/UpdateProfile";
 
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
           <Route exact path='/Profile' element={<Profile />}></Route>
           <Route exact path='/Signup' element={<Signup />}></Route>
           <Route exact path='/Signin' element={<Signin />}></Route>
+          <Route exact path='/updateprofile' element={<UpdateProfile/>}></Route>
         </Routes>
         <Footer/>
       </BrowserRouter>

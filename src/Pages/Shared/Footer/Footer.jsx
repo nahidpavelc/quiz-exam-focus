@@ -10,7 +10,7 @@ const Footer = () => {
         left: 0,
         bottom: 0,
         right: 0,
-        backgroundColor: "green"
+
       }}>
         <div class="container">
           <div class="row">

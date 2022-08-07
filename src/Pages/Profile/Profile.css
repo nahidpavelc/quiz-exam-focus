@@ -1,0 +1,35 @@
+body{
+  font-family: solaimanfont;
+}
+.student_info_header {
+  margin: 0px 0px;
+  background: darkslateblue;
+  text-align: center;
+  width: 125px;
+  padding: 10px;
+  font-weight: bold;
+  height: auto;
+  color: white;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.student_profile_pic {
+  background: darkslateblue;
+  width: 125px;
+  padding: 2px;
+  height: auto;
+  border-radius: 15px;
+  margin-top: 10px;
+}
+.prohead{
+  font-size: 16px;
+}
+.probtn {
+  color: #fff!important;
+  background-color: #dc3545!important;
+  border-color: #dc3545!important;
+}
+.probtn:hover{
+  background-color: #e40a03!important;
+}
