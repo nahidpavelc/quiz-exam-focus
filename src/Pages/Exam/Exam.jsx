@@ -1,9 +1,10 @@
 import React from 'react';
-import './Exam.css'
+import { NavLink } from 'react-router-dom';
+import './Exam.module.css';
 
 const Exam = () => {
   return (
-    <div className='container d-flex justify-content-center' style={{minHeight:'625px'}}>
+    <div className='container d-flex justify-content-center p-4' style={{ minHeight: '625px' }}>
       <div class="accordion col-lg-6 col-12" id="accordionExample">
         <div class="accordion-item accordc ">
           <h2 class="accordion-header" id="headingThree">
@@ -20,7 +21,11 @@ const Exam = () => {
               <span className='d-flex justify-content-center'><p className='m-0' >Exam Start :</p>12:09pm, 28 Aug 2022</span>
               <span className='mt-3'>12:09pm, 28 Aug 2022</span>
             </div>
-            <button type="button" class="btn btn-success m-3">Success</button>
+            <NavLink className="nav-link" to="/topic">
+              {" "}
+              <button type="button" className="btn btn-danger m-3 exambtn" style={{border:'1px solid red'}}>Start Quiz</button>
+            </NavLink>
+
           </div>
         </div>
       </div>

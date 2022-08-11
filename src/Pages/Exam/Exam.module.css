@@ -39,3 +39,7 @@
   outline: 0;
   box-shadow: none;
 }
+.exambtn{
+  border: 1px solid green;
+  background-color: #F40552;
+}

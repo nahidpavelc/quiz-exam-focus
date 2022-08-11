@@ -10,7 +10,7 @@ const Signup = () => {
           <div class="col-12">
             <div class="form_part"
               style={{ borderColor: '#ccc', boxShadow: '2px 3px 10px 2px gray', padding: '15px', margin: '15px 0px 55px 0px' }}>
-              <h4 class="animated fadeIn" style={{ margin: '0px', fontSize: '18px', fontWeight: '400' }}>রেজিস্ট্রেশন</h4>
+              <h4 class="animated fadeIn" style={{ margin: '0px', fontSize: '18px', fontWeight: 'bold' }}>রেজিস্ট্রেশন</h4>
               <span style={{ color: 'red', fontSize: '20px' }}>
               </span>
               <form action="http://focusbd.info/site/registration/" method="post" enctype="multipart/form-data" class="form-horizontal" autocomplete="off">
@@ -91,11 +91,15 @@ const Signup = () => {
 
                   </select>
                 </div>
-                <div class="form-group animated slideInUp">
+                <div class="form-group animated slideInUp" style={{textAlign:'left'}}>
                   <input type="file" class="form-control-file" name="photo" />
                 </div>
-                <div class="form_buttonanimated slideInUp">
-                  <button type="submit" class="btn btn" style={{ backgroundColor: '#483D8B', color: 'white' }}>নিবন্ধন করুন</button>
+                
+                <div class="form_buttonanimated slideInUp ">
+                <NavLink className="nav-link btn btn button" type="submit" style={{ backgroundColor: '#483D8B', color: 'white' }} to="/Signin" >
+                  {" "}
+                  নিবন্ধন করুন
+                </NavLink>
                 </div>
 
                 <NavLink className="nav-link" style={{ textDecoration: 'underline', color: '#888', fontSize: '18px' }} to="/Signin" >

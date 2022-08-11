@@ -1,5 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import './Signin.css'
 
 const Signin = () => {
   return (
@@ -22,7 +23,7 @@ const Signin = () => {
                   <input type="text" class="form-control" name="optcode" maxlength="6" placeholder="মোবাইলে প্রাপ্ত কোড" required="" />
                 </div>
                 <div class="form_button animated fadeIn">
-                  <button type="submit" class="btn" style={{ backgroundColor: '#483D8B', color: 'white' }}>লগইন</button>
+                  <button type="submit" class="btn signinbtn" style={{ backgroundColor: '#483D8B', color: 'white' }}>লগইন</button>
                 </div>
                 <NavLink className="nav-link" style={{ textDecoration: 'underline', color: '#888', fontSize: '18px' }} to="/Signup">
                   {" "}

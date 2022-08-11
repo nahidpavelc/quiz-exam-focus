@@ -26,7 +26,7 @@ const topHeader = () => {
                   <p><span><i class="fa fa-reply"></i></span> focusdu@gmail.com </p>
                 </div>
                 <div class="top_header_contact_inner">
-                  <p><span><i class="fas fa-phone-alt"></i></span> ০১৭৫০১৩৮৯৫০, ০১৭২০৯৫৮৫১০ </p>
+                  <p><span><i class="fa-solid fa-phone"></i></span> ০১৭৫০১৩৮৯৫০, ০১৭২০৯৫৮৫১০ </p>
                 </div>
               </div>
             </div>
