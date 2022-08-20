@@ -27,7 +27,7 @@ const Footer = () => {
                 </div>
               </div>
               <div class="footer_contentf">
-                <p>Copyright © 2022 Design and Development by <a href="">HRSOFTBD</a></p>
+                <p>Copyright © 2022 Design and Development by <a href="">NAHID</a></p>
               </div>
             </div>
           </div>
