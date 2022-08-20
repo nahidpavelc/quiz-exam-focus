@@ -14,16 +14,21 @@ const Exam = () => {
           </h2>
           <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
             <div class="accordion-body">
-              <span className='d-flex justify-content-center'><p className='m-0' >Total Question :</p>10</span>
-              <span className='d-flex justify-content-center'><p className='m-0' >Total Marks :</p>10</span>
-              <span className='d-flex justify-content-center'><p className='m-0' >Pass Marks :</p>10</span>
-              <span className='d-flex justify-content-center'><p className='m-0' >Total Time :</p>26:46:40 min</span>
-              <span className='d-flex justify-content-center'><p className='m-0' >Exam Start :</p>12:09pm, 28 Aug 2022</span>
+              <span className='d-flex justify-content-center'><p className='m-0' >Total Question :</p>15</span>
+              <span className='d-flex justify-content-center'><p className='m-0' >Total Marks :</p>15</span>
+              <span className='d-flex justify-content-center'><p className='m-0' >Pass Marks :</p>15</span>
+              <span className='d-flex justify-content-center'><p className='m-0' >Total Time :</p>10 min</span>
+              <span className='d-flex justify-content-center'><p className='m-0' >Exam Start :</p>10:00am, 28 Aug 2022</span>
               <span className='mt-3'>12:09pm, 28 Aug 2022</span>
             </div>
-            <NavLink className="nav-link" to="/topic">
+            {/* <NavLink className="nav-link" to="/play/instructions">
               {" "}
-              <button type="button" className="btn btn-danger m-3 exambtn" style={{border:'1px solid red'}}>Start Quiz</button>
+              <button type="button" className="btn btn-danger m-3 exambtn" style={{ border: '1px solid red' }}>Start Quiz</button>
+            </NavLink> */}
+
+            <NavLink className="nav-link" to="/play/quiz">
+              {" "}
+              <button type="button" className="btn btn-danger m-3 exambtn" style={{ border: '1px solid red' }}>Start Quiz</button>
             </NavLink>
 
           </div>

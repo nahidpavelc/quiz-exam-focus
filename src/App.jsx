@@ -1,4 +1,5 @@
 import "./App.css";
+import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./Pages/Home/Home";
 import Header from "./Pages/Shared/Header/Header";
@@ -11,10 +12,10 @@ import Navbar from "./Pages/Shared/navbar/Navbar";
 import Signup from "./Pages/Signup/Signup";
 import Signin from "./Pages/Signin/Signin";
 import UpdateProfile from "./Pages/UpdateProfile/UpdateProfile";
-import { UniversalProvider } from "./Pages/Quiz/contexts/UniversalContext";
-import ChooseTopic from "./Pages/Quiz/pages/chooseTopic";
-import { QuizProvider } from "./Pages/Quiz/contexts/QuizContext";
-import QuizCore from './Pages/Quiz/pages/quizGame/index';
+
+// quiz 
+import QuizSummary from "./Pages/Quiz/quiz/QuizSummary";
+import Play from './Pages/Quiz/quiz/Play';
 
 
 function App() {
@@ -25,29 +26,21 @@ function App() {
         <Header />
         {/* <Navbar/> */}
 
-        <UniversalProvider>
-          <Routes>
-            {/* <topHeader /> */}
-            <Route exact path='/' element={<Exam />}></Route>
-            <Route exact path='/Exam' element={<Exam />}></Route>
-            <Route exact path='/Result' element={<Result />}></Route>
-            <Route exact path='/Profile' element={<Profile />}></Route>
-            <Route exact path='/Signup' element={<Signup />}></Route>
-            <Route exact path='/Signin' element={<Signin />}></Route>
-            <Route exact path='/updateprofile' element={<UpdateProfile />}></Route>
 
-            {/* quiz  */}
-            <Route path='/topic' element={<ChooseTopic/>}/>
-            <Route path="/start" element={<QuizProvider>
-                  <QuizCore />
-                </QuizProvider>}>
-            </Route>
-          </Routes>
-        </UniversalProvider>
+        <Routes>
+          {/* <topHeader /> */}
+          <Route exact path='/' element={<Exam />}></Route>
+          <Route exact path='/Exam' element={<Exam />}></Route>
+          <Route exact path='/Result' element={<Result />}></Route>
+          <Route exact path='/Profile' element={<Profile />}></Route>
+          <Route exact path='/Signup' element={<Signup />}></Route>
+          <Route exact path='/Signin' element={<Signin />}></Route>
+          <Route exact path='/updateprofile' element={<UpdateProfile />}></Route>
 
-
-
-
+          {/* quiz  */}
+          <Route exact path='/play/quizSummary' element={<QuizSummary />} ></Route>
+          <Route exact path='/play/quiz' element={<Play />} ></Route>
+        </Routes>
         <Footer />
       </BrowserRouter>
     </div>

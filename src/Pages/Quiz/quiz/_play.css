@@ -1,0 +1,183 @@
+.page-qu {
+  display: flex;
+  justify-content: center;
+}
+.h5-qu {
+  font-size: 24px;
+  font-weight: 600;
+  color: #000000;
+  margin-bottom: 0px;
+}
+.questions {
+  border-radius: 15px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  background-color: rgba(255, 255, 255, 0.349);
+  border-collapse: collapse;
+  overflow: hidden;
+
+  width: 60%;
+  margin: 20px 0px;
+  padding: 15px;
+  color: rgb(0, 0, 0);
+  align-items: center;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  width: 100%;
+}
+
+.button-container button {
+  color: white;
+  cursor: pointer;
+  text-align: center;
+  padding: 15px;
+}
+
+.button-container button:first-child {
+  background-color: #15416e;
+  border: 30px;
+
+  padding: 5px 10px 5px 10px;
+  margin: 0px 10px;
+  font-size: 20px;
+  overflow: hidden;
+  border-radius: 10px;
+  outline: none;
+  transition: 0.1s linear all;
+  text-decoration: none;
+}
+.previous-button:hover {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 15);
+}
+.next-button:hover {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 15);
+}
+.quit-button:hover {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 15);
+}
+
+.button-container button:nth-child(2) {
+  background-color: #3bce4d;
+  border: 30px;
+
+  padding: 5px 30px 5px 30px;
+  margin: 0px 10px;
+  font-size: 20px;
+  overflow: hidden;
+  border-radius: 10px;
+  outline: none;
+  transition: 0.1s linear all;
+  text-decoration: none;
+}
+
+.button-container button:last-child {
+  background-color: rgb(214, 28, 78);
+  border: 30px;
+
+  padding: 5px 30px 5px 30px;
+  margin: 0px 10px;
+  font-size: 20px;
+  overflow: hidden;
+  border-radius: 10px;
+  outline: none;
+  transition: 0.1s linear all;
+  text-decoration: none;
+}
+
+.lifeline-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.lifeline {
+  position: relative;
+  font-size: 20px;
+  overflow: hidden;
+  border-radius: 15px;
+  outline: none;
+  transition: 0.1s linear all;
+  background-color: rgba(251, 255, 0, 0.425);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 15);
+  padding: 10px;
+}
+
+.lifeline:hover {
+  background: none;
+  color: darken(orange, 10%);
+}
+
+.h2-c {
+  text-align: center;
+  font-weight: lighter;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 15);
+  color: black;
+  font-size: 50px;
+}
+
+.h5-p {
+  font-size: 35px;
+  margin-bottom: 5px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.timer-number {
+  text-align: center;
+  font-size: 20px;
+  color: rgb(3, 3, 3);
+  /* border-bottom: 2px solid black; */
+  background: #d61c4e;
+  border-radius: 10px;
+}
+
+.option-container {
+  display: inline-block;
+  width: 50%;
+  align-items: left;
+}
+
+.option {
+  background-color: rgba(23, 69, 116, 0.973);
+  border: 30px;
+
+  /* // padding: 5px 10px 5px 10px; */
+  font-size: 20px;
+  overflow: hidden;
+  border-radius: 10px;
+  outline: none;
+  transition: 0.1s linear all;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 15);
+  text-decoration: none;
+
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  margin: 10px auto;
+  padding: 1rem;
+  text-align: left;
+  width: 50%;
+  position: l;
+}
+.option1:hover {
+  color: rgb(5, 5, 5);
+  background: #3bce4d;
+}
+.option2:hover {
+  color: rgb(5, 5, 5);
+  background: #3bce4d;
+}
+.option3:hover {
+  color: rgb(5, 5, 5);
+  background: #3bce4d;
+}
+.option4:hover {
+  color: rgb(5, 5, 5);
+  background-color: #3bce4d;
+}

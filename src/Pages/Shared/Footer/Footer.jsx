@@ -17,13 +17,13 @@ const Footer = () => {
             <div class="col-lg-12 text-center">
               <div class="top_socialf" style={{ justifyContent: 'center' }}>
                 <div class="top_social_inner">
-                  <a href=""><i class="fab fa-facebook-f"></i></a>
+                  <a href=""><i class="fa fa-facebook-f"></i></a>
                 </div>
                 <div class="top_social_inner">
-                  <a href=""><i class="fab fa-instagram"></i></a>
+                  <a href=""><i class="fa fa-instagram"></i></a>
                 </div>
                 <div class="top_social_inner">
-                  <a href=""><i class="fab fa-youtube"></i></a>
+                  <a href=""><i class="fa fa-youtube"></i></a>
                 </div>
               </div>
               <div class="footer_contentf">
