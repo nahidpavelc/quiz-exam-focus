@@ -145,7 +145,7 @@
 }
 
 .option {
-  background-color: rgba(23, 69, 116, 0.973);
+  background-color: rgba(255, 255, 255, 0.918);
   border: 30px;
 
   /* // padding: 5px 10px 5px 10px; */
@@ -157,7 +157,7 @@
   box-shadow: 0 0 5px rgba(0, 0, 0, 15);
   text-decoration: none;
 
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   cursor: pointer;
   margin: 10px auto;
   padding: 1rem;
